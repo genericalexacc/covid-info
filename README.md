@@ -19,3 +19,6 @@ This prototype was developed as part of a research project for class SOEN-357. T
 9. Scan the QR code displayed on the terminal and open the Expo app
 
 ## Video Demonstration
+
+https://user-images.githubusercontent.com/43622634/115929010-09e35180-a455-11eb-8a00-c3f250f3571e.mp4
+
