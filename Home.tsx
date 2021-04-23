@@ -43,14 +43,17 @@ function Curfew(){
 function OpenThings(){
     //Render the component
     return (
-        <View style={{maxHeight:208, padding: 15, paddingLeft: 15, marginTop: 50, width:'90%', marginLeft:'5%', borderRadius: 10, borderColor: '#88A2AA', borderStyle: 'solid', borderWidth: 3, backgroundColor: '#E7ECEF', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+        <View style={{maxHeight:500, padding: 15, paddingLeft: 15, marginTop: 50, width:'90%', marginLeft:'5%', borderRadius: 10, borderColor: '#88A2AA', borderStyle: 'solid', borderWidth: 3, backgroundColor: '#E7ECEF', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             {/* These are just text lines */}
             <Text style={{fontSize: 18, color: '#0F1A20'}}>The following things are open:</Text>
             <Text style={{marginTop: 10, fontSize: 18, color: '#0F1A20'}}>✅ Takeout restaurants</Text>
-            <Text style={{marginTop: 10, fontSize: 18, color: '#0F1A20'}}>✅ Museums and art galleries</Text>
-            <Text style={{marginTop: 10, fontSize: 18, color: '#0F1A20'}}>✅ National Parks</Text>
+            <Text style={{marginTop: 10, fontSize: 18, color: '#0F1A20'}}>✅ Museums and art galleries (Limited Capacity)</Text>
+            <Text style={{marginTop: 10, fontSize: 18, color: '#0F1A20'}}>✅ National Parks (Limited Capacity)</Text>
+            <Text style={{marginTop: 10, fontSize: 18, color: '#0F1A20'}}>✅ Cinemas (Limited Capacity)</Text>
+            <Text style={{marginTop: 10, fontSize: 18, color: '#0F1A20'}}>✅ Stores (Limited Capacity)</Text>
             <Text style={{marginTop: 10, fontSize: 18, color: '#0F1A20'}}>❌ Dining in restaurants</Text>
-            <Text style={{marginTop: 10, fontSize: 18, color: '#0F1A20'}}>❌ Cinemas</Text>
+            <Text style={{marginTop: 10, fontSize: 18, color: '#0F1A20'}}>❌ Gyms</Text>
+
         </View>
     )
 }

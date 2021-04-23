@@ -13,8 +13,8 @@ export default function Signup({setInfo, changePage} : any) {
       <Text style={{...styles.textColor, marginBottom: 20}}>Please fill this out 📝</Text>
       <TextInput style={styles.inputStyle} onChangeText={(Value)=>setInfo('Email', Value)} placeholderTextColor={textC} placeholder="Email" />
       <TextInput style={styles.inputStyle} onChangeText={(Value)=>setInfo('Password', Value)} secureTextEntry={true} placeholderTextColor={textC} placeholder="Password" />
-      <TextInput style={styles.inputStyle} onChangeText={(Value)=>setInfo('Firstname', Value)} placeholderTextColor={textC} placeholder="Firstname" />
-      <TextInput style={styles.inputStyle} onChangeText={(Value)=>setInfo('Lastname', Value)} placeholderTextColor={textC} placeholder="Lastname" />
+      <TextInput style={styles.inputStyle} onChangeText={(Value)=>setInfo('Firstname', Value)} placeholderTextColor={textC} placeholder="First name" />
+      <TextInput style={styles.inputStyle} onChangeText={(Value)=>setInfo('Lastname', Value)} placeholderTextColor={textC} placeholder="Last name" />
       <TextInput style={styles.inputStyle} onChangeText={(Value)=>setInfo('Job', Value)} placeholderTextColor={textC} placeholder="Job" />
       <TextInput style={styles.inputStyle} onChangeText={(Value)=>setInfo('Age', Value)} placeholderTextColor={textC} keyboardType="numeric" placeholder="Age" />
       <TextInput style={styles.inputStyle} onChangeText={(Value)=>setInfo('Conditions', Value)} placeholderTextColor={textC} multiline={true} numberOfLines={4} placeholder="Prexisting medical conditions like asthma or auto immune disease." />
