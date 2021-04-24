@@ -1,7 +1,3 @@
-
-https://user-images.githubusercontent.com/43622634/115940119-66069f80-a46e-11eb-812c-1387aebccac9.mov
-
-
 #  Covid-Info
 
 This prototype was developed as part of a research project for class SOEN-357. The goal of the research project is to assess whether an application that would allow users to access more relevant, personalized and up to date information regarding the COVID-19 pandemic in Quebec could help reduce the confusion and frustration of the population and prevent them from using unreliable sources of information thus allowing them to better follow the rules and be overall better informed. 
@@ -23,4 +19,3 @@ This prototype was developed as part of a research project for class SOEN-357. T
 
 ## Video Demonstration
 https://user-images.githubusercontent.com/43622634/115940135-70289e00-a46e-11eb-8e3e-e217785c635a.mov
-
