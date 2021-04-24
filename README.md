@@ -7,7 +7,7 @@ This prototype was developed as part of a research project for class SOEN-357. T
 2. Download the Expo Go app on your phone
 3. Clone the repository
 4. Enter Directory
-`cd SOEN357-CovidTracker`
+`cd covid-info`
 5. Install node modules
 `npm install`
 6. Install expo CLI
